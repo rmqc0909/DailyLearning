@@ -1,4 +1,4 @@
-package com.github.rmqc;
+package com.github.rmqc.demo1;
 
 /**
  * Created by xiedan11 on 2017/2/14.

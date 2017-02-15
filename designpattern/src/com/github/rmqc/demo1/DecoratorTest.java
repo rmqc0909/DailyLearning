@@ -1,4 +1,4 @@
-package com.github.rmqc;
+package com.github.rmqc.demo1;
 
 import org.junit.Test;
 
@@ -9,7 +9,7 @@ public class DecoratorTest {
     @Test
     public void test() {
         Person person = new Person();
-        Decorator decorator = new Decorator_second(new Decorator_first(new Decorator_first(person)));
+        Decorator decorator = new Decorator_second(new Decorator_first(new Decorator_zero(person)));
         decorator.wearClothes();
         decorator.walkToWhere();
     }
